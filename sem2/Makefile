@@ -1,6 +1,6 @@
-objects = fail.o
+objects = hello.o
 
-all: fail
+all: hello
 
 hello: $(objects)
-	g++ -o fail $(objects)
+	g++ -o hello $(objects)
